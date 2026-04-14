@@ -4,7 +4,7 @@ import markdown
 # --- Configuration ---
 PROJECT_DIR = '.'
 OUTPUT_FILE = 'compiled_project.html'
-DOCUMENT_TITLE = 'Övning 3'  # <-- Change this to whatever you want!
+DOCUMENT_TITLE = 'University Project'  # <-- Change this to whatever you want!
 
 TARGET_EXTENSIONS = {'.md', '.py', '.js', '.ts', '.css', '.cpp', '.java', '.json'}
 IGNORE_DIRS = {'.git', 'node_modules', 'venv', '__pycache__', '.pytest_cache'}
