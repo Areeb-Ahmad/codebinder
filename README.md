@@ -1,11 +1,8 @@
 # codebinder
-A tool for compiling code files into a single beautifully formatted HTML file for viewing in the browser, converting to PDF, or printing to paper. It saves a lot of time and effort each time one wishes to compile all files of different types into a single clean document.
-
-## Disclosure on AI usage
-The list of features have been generated with Gemini AI.
+A tool for compiling code files with beautifully rendered Markdown files into a single beautifully formatted HTML file for viewing in the browser, converting to PDF, or printing to paper. It saves a lot of time and effort each time one wishes to compile all files of different types into a single clean document.
 
 ## Features
-* **Zero System Dependencies:** No need to install finicky (and frankly quite outdated) tools like `wkhtmltopdf` or `LaTeX` engines. It leverages your web browser's native print engine for perfect rendering.
+* **Zero System Dependencies:** No need to install finicky (and frankly quite outdated) tools like `wkhtmltopdf` or `LaTeX` engines. Just use your web browser's native print engine for perfect rendering.
 * **MathJax Support:** Automatically renders complex mathematical equations (`$x^2$` and `$$y=mx+b$$`) written in your Markdown files.
 * **Syntax Highlighting:** Formats your source code neatly into fenced code blocks.
 * **Smart Filtering:** Automatically ignores itself, your `README.md`, and common junk folders (like `node_modules`, `venv`, and `.git`).
@@ -14,7 +11,12 @@ The list of features have been generated with Gemini AI.
 
 ## Prerequisites
 
-You only need Python and a single standard library module.
+You only need Python and a single standard library module. 
 
 ```bash
 pip install markdown
+```
+
+## Additional info
+
+I built this tool myself to save time while submitting course work for a KTH course with the course code DD1327. 
