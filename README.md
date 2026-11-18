@@ -5,7 +5,7 @@ A tool for compiling code files into a single beautifully formatted HTML file fo
 The list of features have been generated with Gemini AI.
 
 ## Features
-* **Zero System Dependencies:** No need to install finicky tools like `wkhtmltopdf` or `LaTeX` engines. It leverages your web browser's native print engine for perfect rendering.
+* **Zero System Dependencies:** No need to install finicky (and frankly quite outdated) tools like `wkhtmltopdf` or `LaTeX` engines. It leverages your web browser's native print engine for perfect rendering.
 * **MathJax Support:** Automatically renders complex mathematical equations (`$x^2$` and `$$y=mx+b$$`) written in your Markdown files.
 * **Syntax Highlighting:** Formats your source code neatly into fenced code blocks.
 * **Smart Filtering:** Automatically ignores itself, your `README.md`, and common junk folders (like `node_modules`, `venv`, and `.git`).
