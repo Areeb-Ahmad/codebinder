@@ -17,6 +17,6 @@ You only need Python and a single standard library module.
 pip install markdown
 ```
 
-## Additional info
+## The origin story
 
 I built this tool myself to save time while submitting course work for a KTH course with the course code DD1327. 
