@@ -11,7 +11,7 @@ A tool for compiling code files with beautifully rendered Markdown files into a 
 
 ## Prerequisites
 
-You only need Python and a single standard library module. 
+You only need Python and (quite sadly) one library module. 
 
 ```bash
 pip install markdown
